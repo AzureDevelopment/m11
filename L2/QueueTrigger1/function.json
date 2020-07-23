@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "test",
+      "connection": "m10l2_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/QueueTrigger1/index.js"
+}
